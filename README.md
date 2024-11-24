@@ -6,10 +6,10 @@ PoCs are from [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs/).
 
 ## Commands
 
-`forge test --contracts DFX_exp.t.sol -vvvv`
+`forge test --match-path DFX_exp.sol -vvvv`
 
-`forge test --contracts RuggedArt_exp.t.sol -vvvv`
+`forge test --match-path RuggedArt_exp.sol -vvvv`
 
-`forge test --contracts EGD_Finance_exp.t.sol -vvvv`
+`forge test --match-path EGD_Finance_exp.sol -vvvv`
 
-`forge test --contracts OneRing_exp.t.sol -vvvv`
+`forge test --match-path OneRing_exp.sol -vvvv`
